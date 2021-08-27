@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas o Streaming</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <header class="header">
+        
+    </header>
+
+
+    <section class="main">
+        <h2>¿Cuántas películas planeas ver en este mes?</h2>
+        <input class="input" type="number" min="0" value="0" placeholder="" id="peliculas">
+        <h2>Selecciona los servicios de streaming que tienes contratados:</h2>
+        <input class="input" type="checkbox" id="netflix" value="139"><label for="netflix">Netflix</label>
+        <input class="input" type="checkbox" id="prime_video" value="99"><label for="prime_video">Prime Video</label>
+        <input class="input" type="checkbox" id="hbo_max" value="149"><label for="hbo_max">HBO Max</label>
+        <input class="input" type="checkbox" id="disney" value="159"><label for="disney">Disney+</label>
+        <br>
+        <button type="button" onClick=compararCostos()>Calcular</button>
+
+        <div class="mensaje">
+            <p id="resultado"></p>
+        </div>
+    </section>
+
+
+</body>
+</html>
